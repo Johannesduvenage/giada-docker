@@ -4,7 +4,6 @@
 #
 # Usage: 
 # 	docker build --build-arg make_jobs=[n] -t giada .
-#   docker run -v `pwd`:/home/giada/build giada make -j 3
 #
 #-------------------------------------------------------------------------------
 
