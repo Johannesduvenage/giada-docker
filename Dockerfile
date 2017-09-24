@@ -8,10 +8,14 @@
 #-------------------------------------------------------------------------------
 
 
-FROM debian:stable
+# The debian:latest tag will always point the latest *stable* release.
+
+FROM debian:latest
+
 LABEL maintainer="giadaloopmachine@gmail.com"
-# --build-arg make_jobs=[n]
 ARG make_jobs=1
+
+# Install dependencies
 
 RUN apt-get update && apt-get install -y \
 	build-essential \
