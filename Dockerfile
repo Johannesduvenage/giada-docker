@@ -44,11 +44,11 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /home/giada/deps
 
 RUN wget http://www.music.mcgill.ca/~gary/rtmidi/release/rtmidi-3.0.0.tar.gz -O rtmidi-3.0.0.tar.gz && \
-	tar zxfv rtmidi-3.0.0.tar.gz && rm rtmidi-3.0.0.tar.gz && \
-	rm /usr/local/lib/librtmidi.so /usr/local/lib/librtmidi.so.4 /usr/local/lib/librtmidi.so.4.0.0
+	tar zxfv rtmidi-3.0.0.tar.gz && rm rtmidi-3.0.0.tar.gz 
 
 WORKDIR /home/giada/deps/rtmidi-3.0.0
 
-RUN  ./configure --with-jack --with-alsa && make -j "$make_jobs" && make install
+RUN  ./configure --with-jack --with-alsa && make -j "$make_jobs" && make install && \
+	rm /usr/local/lib/librtmidi.so /usr/local/lib/librtmidi.so.4 /usr/local/lib/librtmidi.so.4.0.0
 
 WORKDIR /home/giada/build
