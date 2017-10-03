@@ -7,10 +7,7 @@
 #
 #-------------------------------------------------------------------------------
 
-
-# The debian:latest tag will always point the latest *stable* release.
-
-FROM debian:latest
+FROM debian:stable-slim
 
 LABEL maintainer="giadaloopmachine@gmail.com"
 ARG make_jobs=1
