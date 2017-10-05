@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
 	autotools-dev \
 	wget \
 	autoconf \
+	libtool \
 	libx11-dev \
 	libjack-dev \
 	libasound2-dev \
