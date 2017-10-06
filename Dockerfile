@@ -36,6 +36,11 @@ RUN apt-get update && apt-get install -y \
 	libxft-dev \
 && rm -rf /var/lib/apt/lists/*
 
+# TODO 
+# temporary hack is useless, remove it
+# make clean when done
+# rm -rf rtmidi dir when done
+
 # Download and install Rtmidi. Temporary hack: remove dynamic libs to force
 # static linking.
 
