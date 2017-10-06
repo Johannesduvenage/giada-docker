@@ -5,7 +5,7 @@ This is the official Docker image for [Giada Loop Machine](https://giadamusic.co
 This is just one of many potential workflows available through Docker. Is this solution perfect? Definitely not. We love your feedback, so please help us making it more and more awesome :heart_eyes:.
 
 ## What you need
-+
+
 * Docker
 * Git
 
