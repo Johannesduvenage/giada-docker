@@ -42,7 +42,9 @@ monocasual/giada-docker
 [commands here]
 ```
 
-We usually wrap it inside a Bash script or an alias like `giadaDocker`, for brevity's sake. 
+Make sure you are running it inside the directory of the cloned repository.
+
+We usually wrap the command inside a Bash script or an alias like `giadaDocker`, for brevity's sake. 
 
 ## Configure, make and run Giada
 
