@@ -1,6 +1,8 @@
+# Giada-docker
+
 This is the official Docker image for [Giada Loop Machine](https://giadamusic.com/). We baked it with much love to ease the compilation + testing process. No more cluttering up your environment and hunting for dependencies that are nowhere to be found: everything is shipped within the image you are going to download from the Docker Hub.
 
-This is just one of many potential workflows available through Docker. Is this solution perfect? Definitely not. We love your feedback, so please help us making it more and more awesome :heart_eyes:
+This is just one of many potential workflows available through Docker. Is this solution perfect? Definitely not. We love your feedback, so please help us making it more and more awesome :heart_eyes:.
 
 ## What you need
 +
