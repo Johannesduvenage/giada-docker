@@ -13,7 +13,7 @@ This is just one of many potential workflows available through Docker. Is this s
 
 Make sure you have Docker and Git installed. When you are ready, clone the [Giada repository](https://github.com/monocasual/giada) somewhere in your file system:
 
-`$ git clone git@github.com:monocasual/giada.git`
+`$ git clone https://github.com/monocasual/giada.git`
 
 Now pull the Docker image from [our Docker Hub repository](https://hub.docker.com/u/monocasual/):
 
