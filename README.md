@@ -32,7 +32,6 @@ $ docker run \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v /etc/machine-id:/etc/machine-id \
 -v /run/user/$(id -u)/pulse:/run/user/$(id -u)/pulse \
--v /var/lib/dbus:/var/lib/dbus \
 -v $HOME/.pulse:/home/root/.pulse \
 -e DISPLAY \
 --privileged \
