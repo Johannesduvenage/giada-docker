@@ -30,7 +30,6 @@ $ docker run \
 -v $(pwd):/home/giada/build \
 -v $HOME:/root \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
--v /dev/shm:/dev/shm \
 -v /etc/machine-id:/etc/machine-id \
 -v /run/user/$(id -u)/pulse:/run/user/$(id -u)/pulse \
 -v /var/lib/dbus:/var/lib/dbus \
@@ -62,4 +61,4 @@ Enjoy!
 
 ## Caveats
 
-Currently only Pulseaudio is supported. We are working on the ALSA and Jack counterparts.
+Currently Jack Audio is not supported. We are working on it.
